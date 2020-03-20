@@ -49,7 +49,10 @@ class _MyAppState extends State<MyApp> {
                   new Slider(value : _brightness, onChanged : (double b){
                     setState((){_brightness = b;});
                     Screen.setBrightness(b);
-                  })
+                  }),
+                  new RaisedButton(onPressed: () {
+                    Screen.resetBrightness();
+                  }, child: Text('Reset Brightness'),)
                 ]
             )
         ),
