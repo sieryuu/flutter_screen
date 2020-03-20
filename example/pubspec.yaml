@@ -1,5 +1,5 @@
-name: screen_example
-description: Demonstrates how to use the screen plugin.
+name: flutter_screen_example
+description: Demonstrates how to use the flutter_screen plugin.
 
 dependencies:
   flutter:
@@ -13,7 +13,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  screen:
+  flutter_screen:
     path: ../
 
 # For information on the generic Dart part of this file, see the
